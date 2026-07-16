@@ -120,7 +120,112 @@ body{
 hr{
     margin:30px 0;
 }
-      
+.footer{
+    display:flex;
+    justify-content:space-between;
+    background:#4b7d1f;
+    color:white;
+    padding:30px;
+    margin-top:20px;
+}
+
+.gallery,
+.about,
+.contact{
+    width:30%;
+}
+
+.gallery img{
+    width:70px;
+    height:70px;
+    margin:5px;
+    border:2px solid white;
+}
+
+.about p,
+.contact p{
+    margin-top:10px;
+    line-height:22px;
+}
+
+.copyright{
+    background:#355b16;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.container{
+    width:1000px;
+    margin:auto;
+    background:#fff;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.left{
+    width:68%;
+}
+
+.right{
+    width:28%;
+}
+
+h2{
+    color:#6fae2f;
+    margin-bottom:10px;
+}
+
+p{
+    color:#555;
+    line-height:24px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.sidebar{
+    background:#f5f5f5;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:8px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:#444;
+}
+
+.read{
+    background:#6fae2f;
+    color:white;
+    padding:8px 15px;
+    text-decoration:none;
+    border-radius:4px;
+}
+
+.read:hover{
+    background:#5a9226;
+}
+
+.footer{
+    clear:both;
+}
+
     </style>
 </head>
 <body>
@@ -202,7 +307,38 @@ aliquam, lectus turpis varius lorem.
 </div>
 
         </div>
+<div class="footer">
 
+    <div class="gallery">
+        <h2>Image Gallery</h2>
+        <img src="g1.jpg">
+        <img src="g2.jpg">
+        <img src="g3.jpg">
+    </div>
+
+    <div class="about">
+        <h2>About</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p><b>Phone:</b> +91 9876543210</p>
+        <p><b>Email:</b> info@example.com</p>
+        <p><b>Address:</b> Lucknow, India</p>
+    </div>
+
+</div>
+
+<div class="copyright">
+    © Copyright 2026 | Designed by Webtheme
+</div>
+
+</body>
+</html>
 
     </div>
     </body>
